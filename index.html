@@ -1,1 +1,70 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatalogHN | Directorio Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <div class="decoracion-fondo-aurora"></div>
+
+    <header class="header-premium">
+        <div class="contenedor-nav">
+            <div class="logo-area">
+                <i data-lucide="shield-check" class="icono-logo"></i>
+                <span class="texto-logo">CATALOG<span class="resalto-logo">HN</span></span>
+            </div>
+            <nav class="menu-derecho">
+                <span class="badge-elite"><i data-lucide="zap"></i> PLATAFORMA VERIFICADA</span>
+            </nav>
+        </div>
+    </header>
+
+    <section class="banner-hero">
+        <div class="contenido-hero">
+            <span class="tagline-premium">Comunidades VIP & Canales Exclusivos</span>
+            <h1 class="titulo-principal">Los Perfiles Más Buscados de <span class="gradiente-texto">Telegram</span></h1>
+            <p class="subtitulo-principal">Accede a grupos verificados, catálogos exclusivos y las comunidades más populares de forma directa.</p>
+        </div>
+    </section>
+
+    <main class="contenedor-principal">
+        <section class="panel-control-glass">
+            <div class="bloque-buscador">
+                <i data-lucide="search" class="icono-buscar"></i>
+                <input type="text" id="buscador-input" placeholder="Buscar perfiles por nombre...">
+            </div>
+
+            <div class="contenedor-categorias">
+                <span class="titulo-categorias-seccion">Categorías Disponibles:</span>
+                <div class="grid-botones-categorias" id="contenedor-botones-categorias">
+                    <button class="btn-categoria activo" data-categoria="todas">Todas</button>
+                    <button class="btn-categoria" data-categoria="Más Buscadas">Más Buscadas</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="contador-resultados" id="contador-canales">Cargando perfiles premium...</div>
+
+        <section class="grid-canales" id="grid-canales"></section>
+
+        <div class="estado-vacio oculto" id="estado-vacio">
+            <i data-lucide="alert-circle" class="icono-vacio"></i>
+            <h3>No se encontraron resultados</h3>
+        </div>
+    </main>
+
+    <footer class="footer-premium">
+        <p>© 2026 CATALOG HN. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
