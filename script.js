@@ -1,8 +1,8 @@
-const CANALES_DATOS = [
+const BASE_DATOS_PREMIUM = [
   {
     "id": 1,
     "nombre": "Brisna Reyes",
-    "descripcion": "Comunidad premium oficial de Brisna Reyes. Acceso verificado y actualizaciones diarias.",
+    "descripcion": "Acceso verificado a la comunidad premium oficial de Brisna Reyes. Actualizaciones y novedades constantes.",
     "categoria": "Más Buscadas",
     "pais": "HONDUREÑAS",
     "imagen": "https://lh3.googleusercontent.com/d/1H4k6rbM3B1BWb4FI6ZlpZbfUB-0Xg3v_",
@@ -11,7 +11,7 @@ const CANALES_DATOS = [
   {
     "id": 2,
     "nombre": "Kensy Solis",
-    "descripcion": "Canal verificado oficial de Kensy Solis. Únete al grupo con las publicaciones exclusivas.",
+    "descripcion": "Canal verificado oficial de Kensy Solis. Únete directamente al grupo con publicaciones de alta popularidad.",
     "categoria": "Más Buscadas",
     "pais": "HONDUREÑAS",
     "imagen": "https://lh3.googleusercontent.com/d/1CHWs_2JZICXvnYMg8kozn4PFdR8e0Q3b",
@@ -20,7 +20,7 @@ const CANALES_DATOS = [
   {
     "id": 3,
     "nombre": "Valeria Aguilar",
-    "descripcion": "Comunidad privada oficial de Valeria Aguilar en Telegram. Todo el contenido en alta calidad.",
+    "descripcion": "Comunidad privada oficial de Valeria Aguilar en Telegram. Todo el catálogo organizado en alta velocidad.",
     "categoria": "Más Buscadas",
     "pais": "HONDUREÑAS",
     "imagen": "https://lh3.googleusercontent.com/d/1NwgfTAi0IvHpOqKSgpMFre9T_RfTB-Y3",
@@ -29,7 +29,7 @@ const CANALES_DATOS = [
   {
     "id": 4,
     "nombre": "Desire Diaz",
-    "descripcion": "Canal premium exclusivo verificado de Desire Diaz. El espacio oficial con novedades constantes.",
+    "descripcion": "Espacio premium exclusivo y verificado de Desire Diaz. El directorio oficial con el contenido más solicitado.",
     "categoria": "Más Buscadas",
     "pais": "HONDUREÑAS",
     "imagen": "https://lh3.googleusercontent.com/d/1B1-jKbJcO-9jvzU6_yEUrXiBhK0k3908",
@@ -38,7 +38,7 @@ const CANALES_DATOS = [
   {
     "id": 5,
     "nombre": "Step Reyes",
-    "descripcion": "Grupo oficial de Step Reyes. Espacio VIP activo con actualizaciones diarias en alta velocidad.",
+    "descripcion": "Grupo oficial activo de Step Reyes. Conexión VIP directa con actualizaciones del directorio.",
     "categoria": "Más Buscadas",
     "pais": "HONDUREÑAS",
     "imagen": "https://lh3.googleusercontent.com/d/1J6yXiUwuRxJWkNTk3cNp2VuMVqf1PpvE",
@@ -47,7 +47,7 @@ const CANALES_DATOS = [
   {
     "id": 6,
     "nombre": "La Niche",
-    "descripcion": "Únete para conocer las últimas publicaciones dentro de la comunidad oficial de La Niche.",
+    "descripcion": "Comunidad oficial de La Niche. Únete para conocer los perfiles y las últimas publicaciones añadidas.",
     "categoria": "Más Buscadas",
     "pais": "HONDUREÑAS",
     "imagen": "https://lh3.googleusercontent.com/d/1Pm-35B2KPfvdonKcCuYqdnQ9naI74kJ0",
@@ -56,7 +56,7 @@ const CANALES_DATOS = [
   {
     "id": 7,
     "nombre": "Jelen Santos",
-    "descripcion": "Canal exclusivo de Jelen Santos. Todo el contenido oficial de forma premium.",
+    "descripcion": "Canal exclusivo de Jelen Santos. Todo el contenido oficial estructurado de forma premium.",
     "categoria": "Más Buscadas",
     "pais": "HONDUREÑAS",
     "imagen": "https://lh3.googleusercontent.com/d/11qgUGCUEfQX2U3cbTn4tq7bQxgRD7VbB",
@@ -213,4 +213,39 @@ const CANALES_DATOS = [
     "categoria": "Más Buscadas",
     "pais": "HONDUREÑAS",
     "imagen": "https://lh3.googleusercontent.com/d/1l3idivIqE8UcwXaQiL7MFfx6w6fepDjN",
-    "enlace": "
+    "enlace": "https://t.me/+O2Wn0aKMC8MzZWEx"
+  },
+  {
+    "id": 25,
+    "nombre": "Desire Garcia",
+    "descripcion": "Canal oficial dedicado con todo el contenido exclusivo de Desire Garcia.",
+    "categoria": "Más Buscadas",
+    "pais": "HONDUREÑAS",
+    "imagen": "https://lh3.googleusercontent.com/d/1nyMPPPLuc5m9ZWaAH8JO3JP0FMYcvnE2",
+    "enlace": "https://t.me/+Pb8EX6-bmNRhMjcx"
+  },
+  {
+    "id": 26,
+    "nombre": "Majo Ramirez",
+    "descripcion": "Directorio oficial y acceso al canal principal de Majo Ramirez. Comunidad premium.",
+    "categoria": "Más Buscadas",
+    "pais": "HONDUREÑAS",
+    "imagen": "https://lh3.googleusercontent.com/d/1miHGg6iYw_S986RlMbC9r3VpBd-bMzGY",
+    "enlace": "https://t.me/+yyO2gTTDgWU1NDEx"
+  },
+  {
+    "id": 27,
+    "nombre": "La Queso",
+    "descripcion": "Comunidad premium oficial dedicada al seguimiento y novedades en tiempo real de La Queso.",
+    "categoria": "Más Buscadas",
+    "pais": "HONDUREÑAS",
+    "imagen": "https://lh3.googleusercontent.com/d/1EPng-lXa4QxPydW9s9Q18ptJatbJDhZL",
+    "enlace": "https://t.me/+h07etPuE9poxMjAx"
+  },
+  {
+    "id": 28,
+    "nombre": "Jacky Najera",
+    "descripcion": "Acceso al canal exclusivo de Jacky Najera. Fotos e interacciones.",
+    "categoria": "Más Buscadas",
+    "pais": "HONDUREÑAS",
+    "imagen": "
