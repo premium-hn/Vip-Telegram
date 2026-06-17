@@ -7,57 +7,62 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="decoracion-fondo-aurora"></div>
+    <div class="esfera-neon-uno"></div>
+    <div class="esfera-neon-dos"></div>
 
-    <header class="header-premium">
-        <div class="contenedor-nav">
-            <div class="logo-area">
-                <span class="texto-logo">CATALOG<span class="resalto-logo">HN</span></span>
+    <header class="navbar-futurista">
+        <div class="nav-bloque">
+            <div class="marca-logo">
+                <span class="badge-punto"></span>
+                <span class="logo-principal">CATALOG<span class="azul-neon">HN</span></span>
             </div>
-            <nav class="menu-derecho">
-                <span class="badge-elite">PLATAFORMA VERIFICADA</span>
-            </nav>
+            <div class="nav-derecha">
+                <div class="tag-verificado">ACCESO EXCLUSIVO</div>
+            </div>
         </div>
     </header>
 
-    <section class="banner-hero">
-        <div class="contenido-hero">
-            <span class="tagline-premium">Comunidades VIP & Canales Exclusivos</span>
-            <h1 class="titulo-principal">Los Perfiles Más Buscados de <span class="gradiente-texto">Telegram</span></h1>
-            <p class="subtitulo-principal">Accede a grupos verificados, catálogos exclusivos y las comunidades más populares de forma directa.</p>
+    <section class="seccion-hero-central">
+        <div class="hero-wrapper">
+            <div class="capsula-premium">DIRECTORIO VIP ACTUALIZADO</div>
+            <h1 class="gran-titulo">Descubre los Perfiles Más Top de <span class="linea-gradiente">Telegram</span></h1>
+            <p class="descripcion-corta">Comunidades verificadas, canales de alta popularidad y catálogos exclusivos recopilados en un solo lugar.</p>
         </div>
     </section>
 
-    <main class="contenedor-principal">
-        <section class="panel-control-glass">
-            <div class="bloque-buscador">
-                <input type="text" id="buscador-input" placeholder="Buscar perfiles por nombre...">
+    <main class="zona-catalogo">
+        <div class="contenedor-busqueda-avanzada">
+            <div class="input-wrapper">
+                <input type="text" id="buscador-input" placeholder="Escribe el nombre del perfil que buscas...">
             </div>
-
-            <div class="contenedor-categorias">
-                <span class="titulo-categorias-seccion">Categorías Disponibles:</span>
-                <div class="grid-botones-categorias" id="contenedor-botones-categorias">
-                    <button class="btn-categoria activo" data-categoria="todas">Todas</button>
-                    <button class="btn-categoria" data-categoria="Más Buscadas">Más Buscadas</button>
+            
+            <div class="filtro-rapido">
+                <span class="texto-filtro-guia">Filtrar por:</span>
+                <div class="grupo-chips" id="contenedor-botones-categorias">
+                    <button class="chip-categoria activo" data-categoria="todas">Todos los perfiles</button>
+                    <button class="chip-categoria" data-categoria="Más Buscadas">Más Buscadas 🔥</button>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <div class="contador-resultados" id="contador-canales">Cargando perfiles premium...</div>
+        <div class="contador-resultados" id="contador-canales">Buscando registros en la base de datos...</div>
 
         <section class="grid-canales" id="grid-canales"></section>
 
         <div class="estado-vacio oculto" id="estado-vacio">
-            <h3>No se encontraron resultados</h3>
+            <h3>No se encontraron perfiles coincidentes</h3>
+            <p>Intenta buscando con otro nombre o seleccionando otra categoría.</p>
         </div>
     </main>
 
-    <footer class="footer-premium">
-        <p>© 2026 CATALOG HN. Todos los derechos reservados.</p>
+    <footer class="pie-pagina-premium">
+        <div class="contenido-footer">
+            <p>© 2026 CATALOG HN • Conexión VIP Segura</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
